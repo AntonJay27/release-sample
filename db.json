@@ -1,3 +1,19 @@
 {
-  "title" : "sample"
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+  "comments" : [
+    
+  ]
+  "db" : [
+    {
+      "hello" : "world"
+    }
+  ]
 }
