@@ -1,5 +1,5 @@
 {
-  "courses": [
+  [
       {
         "id":1,
         "title": "React JS Development",
@@ -21,7 +21,7 @@
         "description": "Best course on Node Js Development."
       }
   ],
-  "events": [
+  [
       {
         "id":1,
         "name": "Monday WFH Checkin Call",
