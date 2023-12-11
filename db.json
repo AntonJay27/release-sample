@@ -1,12 +1,12 @@
 {
   "system_update" : {
-		"version" : "v1.0.1",
-		"file" : "arkcrm-patch-v1-0-1.zip",
+		"version" : "v1.0.2",
+		"file" : "arkcrm-patch-v1-0-2.zip",
 		"details" : [
 				"Detail 1",
 				"Detail 2",
 				"Detail 3"
 			],
-		"date" : "2023-12-08"
+		"date" : "2023-12-11"
 	}
 }
