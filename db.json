@@ -1,7 +1,7 @@
 {
   "system_update" : {
 		"version" : "v1.0",
-		"file" : "sample-1.0.zip",
+		"file" : "sample-1.0",
 		"details" : [
 				"Detail 1",
 				"Detail 2",
