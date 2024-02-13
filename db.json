@@ -1,14 +1,14 @@
 {
   "system_update" : {
-		"version" : "v1.0",
-		"file" : "sample-1.0.zip",
+		"version" : "v1.0.1",
+		"file" : "ARK-CRM-arkcrm-patch-v1-0-4",
 		"details" : [
-				"Detail 1",
-				"Detail 2",
-				"Detail 3",
-				"Detail 4",
-				"Detail 5"
+				"BUG FIX - Create new Organization: null",
+				"BUG FIX - Saving new document in Organization: null",
+				"BUG FIX - Organization: New Document (Action)",
+				"FUTURE REQUIREMENTS - Database: username",
+				"BUG FIX - User Roles & Restrictions"
 			],
-		"date" : "2023-12-11"
+		"date" : "2024-02-13"
 	}
 }
