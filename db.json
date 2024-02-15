@@ -1,7 +1,7 @@
 {
   "system_update" : {
 		"version" : "v1.0.1",
-		"file" : "ARK-CRM-arkcrm-patch-v1-0-4",
+		"file" : "arkcrm-patch-v1.0.1",
 		"details" : [
 			"BUG FIX - Create new Organization: null",
 			"BUG FIX - Saving new document in Organization: null",
@@ -10,13 +10,13 @@
 			"BUG FIX - User Roles & Restrictions"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-v1.0.1/app/Controllers/InstallationController.php",
-			"public/updates/arkcrm-v1.0.1/app/Controllers/Portal/NavigationController.php",
-			"public/updates/arkcrm-v1.0.1/app/Controllers/Portal/SystemUpdateController.php",
-			"public/updates/arkcrm-v1.0.1/app/Controllers/Portal/UserController.php",
-			"public/updates/arkcrm-v1.0.1/app/Views/portal/user-management/profiles.slice.php",
-			"public/updates/arkcrm-v1.0.1/public/assets/js/install.js",
-			"public/updates/arkcrm-v1.0.1/public/assets/js/portal/user-management/profiles.js"
+			"public/updates/arkcrm-patch-v1.0.1/app/Controllers/InstallationController.php",
+			"public/updates/arkcrm-patch-v1.0.1/app/Controllers/Portal/NavigationController.php",
+			"public/updates/arkcrm-patch-v1.0.1/app/Controllers/Portal/SystemUpdateController.php",
+			"public/updates/arkcrm-patch-v1.0.1/app/Controllers/Portal/UserController.php",
+			"public/updates/arkcrm-patch-v1.0.1/app/Views/portal/user-management/profiles.slice.php",
+			"public/updates/arkcrm-patch-v1.0.1/public/assets/js/install.js",
+			"public/updates/arkcrm-patch-v1.0.1/public/assets/js/portal/user-management/profiles.js"
 		],
 	  	"path_to" : [
 			"app/Controllers/InstallationController.php",
