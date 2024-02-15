@@ -1,7 +1,7 @@
 {
   "system_update" : {
 		"version" : "v1.0.2",
-		"file" : "arkcrm-patch-v1.0.2",
+		"file" : "arkcrm-patch-v1.0.2.zip",
 		"details" : [
 			"BUG FIX - Organization: Activities",
             		"BUG FIX - Comment: null",
