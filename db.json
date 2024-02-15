@@ -3,12 +3,30 @@
 		"version" : "v1.0.1",
 		"file" : "ARK-CRM-arkcrm-patch-v1-0-4",
 		"details" : [
-				"BUG FIX - Create new Organization: null",
-				"BUG FIX - Saving new document in Organization: null",
-				"BUG FIX - Organization: New Document (Action)",
-				"FUTURE REQUIREMENTS - Database: username",
-				"BUG FIX - User Roles & Restrictions"
-			],
+			"BUG FIX - Create new Organization: null",
+			"BUG FIX - Saving new document in Organization: null",
+			"BUG FIX - Organization: New Document (Action)",
+			"FUTURE REQUIREMENTS - Database: username",
+			"BUG FIX - User Roles & Restrictions"
+		],
+	  	"path_from" : [
+			"public/updates/arkcrm-v1.0.1/app/Controllers/InstallationController.php",
+			"public/updates/arkcrm-v1.0.1/app/Controllers/Portal/NavigationController.php",
+			"public/updates/arkcrm-v1.0.1/app/Controllers/Portal/SystemUpdateController.php",
+			"public/updates/arkcrm-v1.0.1/app/Controllers/Portal/UserController.php",
+			"public/updates/arkcrm-v1.0.1/app/Views/portal/user-management/profiles.slice.php",
+			"public/updates/arkcrm-v1.0.1/public/assets/js/install.js",
+			"public/updates/arkcrm-v1.0.1/public/assets/js/portal/user-management/profiles.js"
+		],
+	  	"path_to" : [
+			"app/Controllers/InstallationController.php",
+			"app/Controllers/Portal/NavigationController.php",
+			"app/Controllers/Portal/SystemUpdateController.php",
+			"app/Controllers/Portal/UserController.php",
+			"app/Views/portal/user-management/profiles.slice.php",
+			"public/assets/js/install.js",
+			"public/assets/js/portal/user-management/profiles.js"
+		],
 		"date" : "2024-02-13"
 	}
 }
