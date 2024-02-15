@@ -12,8 +12,8 @@
 			"public/updates/arkcrm-patch-v1.0.2/public/assets/js/portal/rolodex/organization.js"
 		],
 	  	"path_to" : [
-			"app/Views/portal/rolodex/organization.slice.php",
-			"public/assets/js/portal/rolodex/organization.js"
+			"app/Views/portal/rolodex/",
+			"public/assets/js/portal/rolodex/"
 		],
 		"date" : "2024-02-15"
 	}
