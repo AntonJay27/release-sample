@@ -1,20 +1,19 @@
 {
   "system_update" : {
-		"version" : "v1.0.2",
-		"file" : "arkcrm-patch-v1.0.2.zip",
+		"version" : "v1.0.3",
+		"file" : "arkcrm-patch-v1.0.3.zip",
 		"details" : [
-			"BUG FIX - Organization: Activities",
-            		"BUG FIX - Comment: null",
-            		"BUG FIX - Link Contact: null"
+			"BUG FIX - Organization/Documents [Add delete button/function]",
+			"SYSTEM UPDATE TESTING"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.0.2/app/Views/portal/rolodex/organization.slice.php",
-			"public/updates/arkcrm-patch-v1.0.2/public/assets/js/portal/rolodex/organization.js"
+			"public/updates/arkcrm-patch-v1.0.3/app/Models/Portal/Updates.php",
+			"public/updates/arkcrm-patch-v1.0.3/public/assets/js/portal/rolodex/organization.js"
 		],
 	  	"path_to" : [
-			"app/Views/portal/rolodex/organization.slice.php",
+			"app/Models/Portal/Updates.php",
 			"public/assets/js/portal/rolodex/organization.js"
 		],
-		"date" : "2024-02-15"
+		"date" : "2024-02-16"
 	}
 }
