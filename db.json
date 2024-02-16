@@ -1,18 +1,24 @@
 {
   "system_update" : {
-		"version" : "v1.0.3",
-		"file" : "arkcrm-patch-v1.0.3.zip",
+		"version" : "v1.0.4",
+		"file" : "arkcrm-patch-v1.0.4.zip",
 		"details" : [
-			"BUG FIX - Organization/Documents [Add delete button/function]",
-			"SYSTEM UPDATE TESTING"
+			"BUG FIX - Saving new document in Organization: null",
+			"BUG FIX - Sending email: null",
+			"BUG FIX - Organization Updates Modules: null",
+			"BUG FIX - Contact Updates Modules: null"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.0.3/app/Models/Portal/Updates.php",
-			"public/updates/arkcrm-patch-v1.0.3/public/assets/js/portal/rolodex/organization.js"
+			"public/updates/arkcrm-patch-v1.0.4/app/Models/Portal/Campaigns.php",
+			"public/updates/arkcrm-patch-v1.0.4/app/Models/Portal/Contacts.php",
+			"public/updates/arkcrm-patch-v1.0.4/app/Models/Portal/Documents.php",
+			"public/updates/arkcrm-patch-v1.0.4/app/Models/Portal/Organizations.php"
 		],
 	  	"path_to" : [
-			"app/Models/Portal/Updates.php",
-			"public/assets/js/portal/rolodex/organization.js"
+			"app/Models/Portal/Campaigns.php",
+			"app/Models/Portal/Contacts.php",
+			"app/Models/Portal/Documents.php",
+			"app/Models/Portal/Organizations.php"
 		],
 		"date" : "2024-02-16"
 	}
