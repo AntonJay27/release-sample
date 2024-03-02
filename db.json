@@ -1,25 +1,58 @@
 {
   "system_update" : {
-		"version" : "v1.0.4",
-		"file" : "arkcrm-patch-v1.0.4.zip",
+		"version" : "v1.0.5",
+		"file" : "arkcrm-patch-v1.0.5.zip",
 		"details" : [
 			"BUG FIX - Saving new document in Organization: null",
-			"BUG FIX - Sending email: null",
-			"BUG FIX - Organization Updates Modules: null",
-			"BUG FIX - Contact Updates Modules: null"
+			"BUG FIX - Company address link",
+			"BUG FIX - Organization: Activities",
+			"BUG FIX - Organization: Events",
+			"BUG FIX - Organization: Tasks",
+			"BUG FIX - Organization: New Document (Action)",
+			"BUG FIX - Duplicate user accounts"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.0.4/app/Models/Portal/Campaigns.php",
-			"public/updates/arkcrm-patch-v1.0.4/app/Models/Portal/Contacts.php",
-			"public/updates/arkcrm-patch-v1.0.4/app/Models/Portal/Documents.php",
-			"public/updates/arkcrm-patch-v1.0.4/app/Models/Portal/Organizations.php"
+			"public/updates/arkcrm-patch-v1.0.5/app/Config/Routes.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Controllers/Portal/ContactController.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Controllers/Portal/DocumentController.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Controllers/Portal/EventController.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Controllers/Portal/OrganizationController.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Controllers/Portal/SystemUpdateController.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Controllers/Portal/TaskController.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Models/Portal/Contacts.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Models/Portal/Documents.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Models/Portal/Events.phpp",
+			"public/updates/arkcrm-patch-v1.0.5/app/Models/Portal/Organizations.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Models/Portal/Tasks.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Views/portal/calendar.slice.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Views/portal/documents.slice.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Views/portal/rolodex/contact.slice.php",
+			"public/updates/arkcrm-patch-v1.0.5/app/Views/portal/rolodex/organization.slice.php",
+			"public/updates/arkcrm-patch-v1.0.5/public/assets/js/portal/documents.js",
+			"public/updates/arkcrm-patch-v1.0.5/public/assets/js/portal/rolodex/contacts.js",
+			"public/updates/arkcrm-patch-v1.0.5/public/assets/js/portal/rolodex/organization.js"
 		],
 	  	"path_to" : [
-			"app/Models/Portal/Campaigns.php",
+			"app/Config/Routes.php",
+			"app/Controllers/Portal/ContactController.php",
+			"app/Controllers/Portal/DocumentController.php",
+			"app/Controllers/Portal/EventController.php",
+			"app/Controllers/Portal/OrganizationController.php",
+			"app/Controllers/Portal/SystemUpdateController.php",
+			"app/Controllers/Portal/TaskController.php",
 			"app/Models/Portal/Contacts.php",
 			"app/Models/Portal/Documents.php",
-			"app/Models/Portal/Organizations.php"
+			"app/Models/Portal/Events.phpp",
+			"app/Models/Portal/Organizations.php",
+			"app/Models/Portal/Tasks.php",
+			"app/Views/portal/calendar.slice.php",
+			"app/Views/portal/documents.slice.php",
+			"app/Views/portal/rolodex/contact.slice.php",
+			"app/Views/portal/rolodex/organization.slice.php",
+			"public/assets/js/portal/documents.js",
+			"public/assets/js/portal/rolodex/contacts.js",
+			"public/assets/js/portal/rolodex/organization.js"
 		],
-		"date" : "2024-02-16"
+		"date" : "2024-03-02"
 	}
 }
