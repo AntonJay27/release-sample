@@ -21,7 +21,7 @@
 			"public/updates/arkcrm-patch-v1.0.5/app/Controllers/Portal/TaskController.php",
 			"public/updates/arkcrm-patch-v1.0.5/app/Models/Portal/Contacts.php",
 			"public/updates/arkcrm-patch-v1.0.5/app/Models/Portal/Documents.php",
-			"public/updates/arkcrm-patch-v1.0.5/app/Models/Portal/Events.phpp",
+			"public/updates/arkcrm-patch-v1.0.5/app/Models/Portal/Events.php",
 			"public/updates/arkcrm-patch-v1.0.5/app/Models/Portal/Organizations.php",
 			"public/updates/arkcrm-patch-v1.0.5/app/Models/Portal/Tasks.php",
 			"public/updates/arkcrm-patch-v1.0.5/app/Views/portal/calendar.slice.php",
