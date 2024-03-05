@@ -30,9 +30,7 @@
 			"public/updates/arkcrm-patch-v1.0.5/app/Views/portal/rolodex/organization.slice.php",
 			"public/updates/arkcrm-patch-v1.0.5/public/assets/js/portal/documents.js",
 			"public/updates/arkcrm-patch-v1.0.5/public/assets/js/portal/rolodex/contacts.js",
-			"public/updates/arkcrm-patch-v1.0.5/public/assets/js/portal/rolodex/organization.js",
-			"public/updates/arkcrm-patch-v1.0.5/public/assets/uploads/documents/contacts/index.php",
-			"public/updates/arkcrm-patch-v1.0.5/public/assets/uploads/documents/organizations/index.php"
+			"public/updates/arkcrm-patch-v1.0.5/public/assets/js/portal/rolodex/organization.js"
 		],
 	  	"path_to" : [
 			"app/Config/Routes.php",
@@ -53,9 +51,7 @@
 			"app/Views/portal/rolodex/organization.slice.php",
 			"public/assets/js/portal/documents.js",
 			"public/assets/js/portal/rolodex/contacts.js",
-			"public/assets/js/portal/rolodex/organization.js",
-			"public/assets/uploads/documents/",
-			"public/assets/uploads/documents/"
+			"public/assets/js/portal/rolodex/organization.js"
 		],
 		"date" : "2024-03-02"
 	}
