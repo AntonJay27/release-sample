@@ -54,8 +54,8 @@
 			"public/assets/js/portal/documents.js",
 			"public/assets/js/portal/rolodex/contacts.js",
 			"public/assets/js/portal/rolodex/organization.js",
-			"public/assets/uploads/documents/contacts/index.php",
-			"public/assets/uploads/documents/organizations/index.php"
+			"public/assets/uploads/documents/",
+			"public/assets/uploads/documents/"
 		],
 		"date" : "2024-03-02"
 	}
