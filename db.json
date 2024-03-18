@@ -18,7 +18,7 @@
 			"ENHANCED REQUIREMENTS - Contact info duplicate",
 			"ENHANCED REQUIREMENTS - Contact: tab",
 			"ENHANCED REQUIREMENTS - Quick Create Contact",
-			"INTEGRATION ISSUES - update live code",
+			"INTEGRATION ISSUES - update live code"
 		],
 	  	"path_from" : [
 			"public/updates/arkcrm-patch-v1.0.6/app/Controllers/Portal/NavigationController.php",
