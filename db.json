@@ -31,9 +31,7 @@
 			"public/updates/arkcrm-patch-v1.0.7/public/assets/js/portal/marketing/email_template.js",
 			"public/updates/arkcrm-patch-v1.0.7/public/assets/js/portal/rolodex/contacts.js",
 			"public/updates/arkcrm-patch-v1.0.7/public/assets/js/portal/rolodex/organization.js",
-			"public/updates/arkcrm-patch-v1.0.7/public/assets/js/portal/settings.js",
-			"public/updates/arkcrm-patch-v1.0.7/public/assets/uploads/emails/signatures/index.php",
-			"public/updates/arkcrm-patch-v1.0.7/public/assets/uploads/emails/templates/index.php"
+			"public/updates/arkcrm-patch-v1.0.7/public/assets/js/portal/settings.js"
 		],
 	  	"path_to" : [
 			"app/Config/Routes.php",
@@ -55,9 +53,7 @@
 			"public/assets/js/portal/marketing/email_template.js",
 			"public/assets/js/portal/rolodex/contacts.js",
 			"public/assets/js/portal/rolodex/organization.js",
-			"public/assets/js/portal/settings.js",
-			"public/assets/uploads/emails/signatures/index.php",
-			"public/assets/uploads/emails/templates/index.php"
+			"public/assets/js/portal/settings.js"
 		],
 		"date" : "2024-04-08"
 	}
