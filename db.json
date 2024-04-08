@@ -13,6 +13,7 @@
 		],
 	  	"path_from" : [
 			"public/updates/arkcrm-patch-v1.0.7/app/Config/Routes.php",
+			"public/updates/arkcrm-patch-v1.0.7/app/Controllers/IndexController.php",
 			"public/updates/arkcrm-patch-v1.0.7/app/Controllers/Portal/ContactController.php",
 			"public/updates/arkcrm-patch-v1.0.7/app/Controllers/Portal/EmailTemplateController.php",
 			"public/updates/arkcrm-patch-v1.0.7/app/Controllers/Portal/NavigationController.php",
@@ -35,6 +36,7 @@
 		],
 	  	"path_to" : [
 			"app/Config/Routes.php",
+			"app/Controllers/IndexController.php",
 			"app/Controllers/Portal/ContactController.php",
 			"app/Controllers/Portal/EmailTemplateController.php",
 			"app/Controllers/Portal/NavigationController.php",
