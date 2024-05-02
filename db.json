@@ -1,33 +1,29 @@
 {
   "system_update" : {
-		"version" : "v1.0.8",
-		"file" : "arkcrm-patch-v1.0.8.zip",
+		"version" : "v1.0.9",
+		"file" : "arkcrm-patch-v1.0.9.zip",
 		"details" : [
-			"ENHANCED REQUIREMENTS - Email in asterisk",
-			"ENHANCED REQUIREMENTS - Contact Us: Sent",
-			"ENHANCED REQUIREMENTS - Email: Sent/Replied",
-			"ENHANCED REQUIREMENTS - LinkedIn: Sent/Replied",
-			"ENHANCED REQUIREMENTS - Facebook: Sent/Replied",
-			"ENHANCED REQUIREMENTS - Organization: Contact Us message (Sent/Respond)",
-			"ENHANCED REQUIREMENTS - Organization: Email (Sent/Respond)"
+			"BUG FIX - Contact Uploading",
+			"BUG FIX - Organization Uploading",
+			"ENHANCED REQUIREMENTS - Contact Uploading Progress Bar",
+			"ENHANCED REQUIREMENTS - Organization Uploading Progress Bar",
+			"ENHANCED REQUIREMENTS - Contact Uploading Organization Mapping"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.0.8/app/Controllers/IndexController.php",
-			"public/updates/arkcrm-patch-v1.0.8/app/Controllers/Portal/ContactController.php",
-			"public/updates/arkcrm-patch-v1.0.8/app/Controllers/Portal/OrganizationController.php",
-			"public/updates/arkcrm-patch-v1.0.8/app/Controllers/UnsubscribeController.php",
-			"public/updates/arkcrm-patch-v1.0.8/app/Models/Portal/Contacts.php",
-			"public/updates/arkcrm-patch-v1.0.8/app/Models/Portal/Organizations.php",
-			"public/updates/arkcrm-patch-v1.0.8/app/Views/portal/rolodex/contact.slice.php",
-			"public/updates/arkcrm-patch-v1.0.8/app/Views/portal/rolodex/organization.slice.php",
-			"public/updates/arkcrm-patch-v1.0.8/public/assets/js/portal/rolodex/contacts.js",
-			"public/updates/arkcrm-patch-v1.0.8/public/assets/js/portal/rolodex/organization.js"
+			"public/updates/arkcrm-patch-v1.0.9/app/Controllers/IndexController.php",
+			"public/updates/arkcrm-patch-v1.0.9/app/Controllers/Portal/ContactController.php",
+			"public/updates/arkcrm-patch-v1.0.9/app/Controllers/Portal/OrganizationController.php",
+			"public/updates/arkcrm-patch-v1.0.9/app/Models/Portal/Contacts.php",
+			"public/updates/arkcrm-patch-v1.0.9/app/Models/Portal/Organizations.php",
+			"public/updates/arkcrm-patch-v1.0.9/app/Views/portal/rolodex/contact.slice.php",
+			"public/updates/arkcrm-patch-v1.0.9/app/Views/portal/rolodex/organization.slice.php",
+			"public/updates/arkcrm-patch-v1.0.9/public/assets/js/portal/rolodex/contacts.js",
+			"public/updates/arkcrm-patch-v1.0.9/public/assets/js/portal/rolodex/organization.js"
 		],
 	  	"path_to" : [
 			"app/Controllers/IndexController.php",
 			"app/Controllers/Portal/ContactController.php",
 			"app/Controllers/Portal/OrganizationController.php",
-			"app/Controllers/UnsubscribeController.php",
 			"app/Models/Portal/Contacts.php",
 			"app/Models/Portal/Organizations.php",
 			"app/Views/portal/rolodex/contact.slice.php",
@@ -35,6 +31,6 @@
 			"public/assets/js/portal/rolodex/contacts.js",
 			"public/assets/js/portal/rolodex/organization.js"
 		],
-		"date" : "2024-04-13"
+		"date" : "2024-05-02"
 	}
 }
