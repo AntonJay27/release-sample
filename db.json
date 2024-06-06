@@ -1,28 +1,42 @@
 {
   "system_update" : {
-		"version" : "v1.1.0",
-		"file" : "arkcrm-patch-v1.1.0.zip",
+		"version" : "v1.1.1",
+		"file" : "arkcrm-patch-v1.1.1.zip",
 		"details" : [
-			"BUG FIX - Contact Uploading",
-			"BUG FIX - Organization Uploading",
-			"ENHANCED REQUIREMENTS - Contact Uploading Insert New Organization"
+			"ENHANCED REQUIREMENTS - Table hover for Contacts & Organizations",
+			"ENHANCED REQUIREMENTS - Estimated Time on Import",
+			"NEW FEATURE - System Email Templates" 
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.1.0/app/Controllers/Portal/ContactController.php",
-			"public/updates/arkcrm-patch-v1.1.0/app/Controllers/Portal/OrganizationController.php",
-			"public/updates/arkcrm-patch-v1.1.0/app/Views/portal/rolodex/contact.slice.php",
-			"public/updates/arkcrm-patch-v1.1.0/app/Views/portal/rolodex/organization.slice.php",
-			"public/updates/arkcrm-patch-v1.1.0/public/assets/js/portal/rolodex/contacts.js",
-			"public/updates/arkcrm-patch-v1.1.0/public/assets/js/portal/rolodex/organization.js"
+			"public/updates/arkcrm-patch-v1.1.1/app/Config/Routes.php",
+			"public/updates/arkcrm-patch-v1.1.1/app/Controllers/IndexController.php",
+			"public/updates/arkcrm-patch-v1.1.1/app/Controllers/Portal/ContactController.php",
+			"public/updates/arkcrm-patch-v1.1.1/app/Controllers/Portal/DashboardController.php",
+			"public/updates/arkcrm-patch-v1.1.1/app/Controllers/Portal/EmailTemplateController.php",
+			"public/updates/arkcrm-patch-v1.1.1/app/Controllers/Portal/OrganizationController.php",
+			"public/updates/arkcrm-patch-v1.1.1/app/Models/Portal/EmailTemplates.php",
+			"public/updates/arkcrm-patch-v1.1.1/app/Views/portal/rolodex/contact.slice.php",
+			"public/updates/arkcrm-patch-v1.1.1/app/Views/portal/rolodex/organization.slice.php",
+			"public/updates/arkcrm-patch-v1.1.1/app/Views/portal/settings.slice.php",
+			"public/updates/arkcrm-patch-v1.1.1/public/assets/js/portal/rolodex/contacts.js",
+			"public/updates/arkcrm-patch-v1.1.1/public/assets/js/portal/rolodex/organization.js",
+			"public/updates/arkcrm-patch-v1.1.1/public/assets/js/portal/settings.js"
 		],
 	  	"path_to" : [
+			"app/Config/Routes.php",
+			"app/Controllers/IndexController.php",
 			"app/Controllers/Portal/ContactController.php",
+			"app/Controllers/Portal/DashboardController.php",
+			"app/Controllers/Portal/EmailTemplateController.php",
 			"app/Controllers/Portal/OrganizationController.php",
+			"app/Models/Portal/EmailTemplates.php",
 			"app/Views/portal/rolodex/contact.slice.php",
 			"app/Views/portal/rolodex/organization.slice.php",
+			"app/Views/portal/settings.slice.php",
 			"public/assets/js/portal/rolodex/contacts.js",
-			"public/assets/js/portal/rolodex/organization.js"
+			"public/assets/js/portal/rolodex/organization.js",
+			"public/assets/js/portal/settings.js"
 		],
-		"date" : "2024-05-20"
+		"date" : "2024-06-06"
 	}
 }
