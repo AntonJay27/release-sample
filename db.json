@@ -25,7 +25,7 @@
 			"public/updates/arkcrm-patch-v1.1.2/app/Views/email/unsubscribe_confirmation_html.slice.php",
 			"public/updates/arkcrm-patch-v1.1.2/app/Views/portal/settings.slice.php",
 			"public/updates/arkcrm-patch-v1.1.2/app/Views/template/includes/footer.slice.php",
-			"public/updates/arkcrm-patch-v1.1.2/public/assets/files/email-templates/Forgot-Password.htm",
+			"public/updates/arkcrm-patch-v1.1.2/public/assets/files/email-templates/Forgot-Password.html",
 			"public/updates/arkcrm-patch-v1.1.2/public/assets/files/email-templates/Invite-User.html",
 			"public/updates/arkcrm-patch-v1.1.2/public/assets/files/email-templates/Unsubscribe-Confirmation.html",
 			"public/updates/arkcrm-patch-v1.1.2/public/assets/js/portal/settings.js"
