@@ -1,47 +1,45 @@
 {
   "system_update" : {
-		"version" : "v1.1.4",
-		"file" : "arkcrm-patch-v1.1.4.zip",
+		"version" : "v1.1.5",
+		"file" : "arkcrm-patch-v1.1.5.zip",
 		"details" : [
-			"ENHANCED REQUIREMENTS - Dashboard Update (Contact & Organization Chart Filter)",
-			"ENHANCED REQUIREMENTS - Rolodex/Contacts (Table loading time & Search Filter)",
-			"ENHANCED REQUIREMENTS - Rolodex/Organization (Table loading time & Search Filter)",
-			"ENHANCED REQUIREMENTS - Contacts And Organizations Page lenght (Show 10, 25, 50, 100 entries)",
-			"BUG FIX - Rolodex/Contacts (Duplicate Handling for New Contact)",
-			"BUG FIX - Rolodex/Organization (Duplicate Handling for New Organization)"
+			"ENHANCED REQUIREMENTS - Opted out (Contact & Organization)",
+			"ENHANCED REQUIREMENTS - Send email To*[Dropdown] (Contact & Organization)",
+			"ENHANCED REQUIREMENTS - Organization And Contacts Checkboxes for batch delete",
+			"ENHANCED REQUIREMENTS - Better Search (Contact & Organization)"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.1.4/app/Config/Routes.php",
-			"public/updates/arkcrm-patch-v1.1.4/app/Controllers/Portal/ContactController.php",
-			"public/updates/arkcrm-patch-v1.1.4/app/Controllers/Portal/DashboardController.php",
-			"public/updates/arkcrm-patch-v1.1.4/app/Controllers/Portal/NavigationController.php",
-			"public/updates/arkcrm-patch-v1.1.4/app/Controllers/Portal/OrganizationController.php",
-			"public/updates/arkcrm-patch-v1.1.4/app/Models/Portal/Contacts.php",
-			"public/updates/arkcrm-patch-v1.1.4/app/Models/Portal/Organizations.php",
-			"public/updates/arkcrm-patch-v1.1.4/app/Models/Portal/Users.php",
-			"public/updates/arkcrm-patch-v1.1.4/app/Views/portal/dashboard.slice.php",
-			"public/updates/arkcrm-patch-v1.1.4/app/Views/portal/rolodex/contact.slice.php",
-			"public/updates/arkcrm-patch-v1.1.4/app/Views/portal/rolodex/organization.slice.php",
-			"public/updates/arkcrm-patch-v1.1.4/public/assets/js/portal/dashboard.js",
-			"public/updates/arkcrm-patch-v1.1.4/public/assets/js/portal/rolodex/contacts.js",
-			"public/updates/arkcrm-patch-v1.1.4/public/assets/js/portal/rolodex/organization.js"
+			"public/updates/arkcrm-patch-v1.1.5/app/Config/Routes.php",
+			"public/updates/arkcrm-patch-v1.1.5/app/Controllers/Portal/ContactController.php",
+			"public/updates/arkcrm-patch-v1.1.5/app/Controllers/Portal/NavigationController.php",
+			"public/updates/arkcrm-patch-v1.1.5/app/Controllers/Portal/OrganizationController.php",
+			"public/updates/arkcrm-patch-v1.1.5/app/Controllers/SampleController.php",
+			"public/updates/arkcrm-patch-v1.1.5/app/Database/Migrations/2022-11-03-174041_CreateContactsTable.php",
+			"public/updates/arkcrm-patch-v1.1.5/app/Models/Portal/Contacts.php",
+			"public/updates/arkcrm-patch-v1.1.5/app/Models/Portal/Organizations.php",
+			"public/updates/arkcrm-patch-v1.1.5/app/Views/portal/rolodex/contact.slice.php",
+			"public/updates/arkcrm-patch-v1.1.5/app/Views/portal/rolodex/organization.slice.php",
+			"public/updates/arkcrm-patch-v1.1.5/app/Views/template/includes/footer.slice.php",
+			"public/updates/arkcrm-patch-v1.1.5/public/assets/js/helpers/common_helper.js",
+			"public/updates/arkcrm-patch-v1.1.5/public/assets/js/portal/rolodex/contacts.js",
+			"public/updates/arkcrm-patch-v1.1.5/public/assets/js/portal/rolodex/organization.js"
 		],
 	  	"path_to" : [
 			"app/Config/Routes.php",
 			"app/Controllers/Portal/ContactController.php",
-			"app/Controllers/Portal/DashboardController.php",
 			"app/Controllers/Portal/NavigationController.php",
 			"app/Controllers/Portal/OrganizationController.php",
+			"app/Controllers/SampleController.php",
+			"app/Database/Migrations/2022-11-03-174041_CreateContactsTable.php",
 			"app/Models/Portal/Contacts.php",
 			"app/Models/Portal/Organizations.php",
-			"app/Models/Portal/Users.php",
-			"app/Views/portal/dashboard.slice.php",
 			"app/Views/portal/rolodex/contact.slice.php",
 			"app/Views/portal/rolodex/organization.slice.php",
-			"public/assets/js/portal/dashboard.js",
+			"app/Views/template/includes/footer.slice.php",
+			"public/assets/js/helpers/common_helper.js",
 			"public/assets/js/portal/rolodex/contacts.js",
 			"public/assets/js/portal/rolodex/organization.js"
 		],
-		"date" : "2024-08-02"
+		"date" : "2024-08-26"
 	}
 }
