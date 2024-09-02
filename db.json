@@ -1,45 +1,26 @@
 {
   "system_update" : {
-		"version" : "v1.1.5",
-		"file" : "arkcrm-patch-v1.1.5.zip",
+		"version" : "v1.1.6",
+		"file" : "arkcrm-patch-v1.1.6.zip",
 		"details" : [
-			"ENHANCED REQUIREMENTS - Opted out (Contact & Organization)",
-			"ENHANCED REQUIREMENTS - Send email To*[Dropdown] (Contact & Organization)",
-			"ENHANCED REQUIREMENTS - Organization And Contacts Checkboxes for batch delete",
-			"ENHANCED REQUIREMENTS - Better Search (Contact & Organization)"
+			"BUG FIX - Email Templates Table (Not loading properly)",
+			"BUG FIX - Dashboard Module (Not loading properly)",
+			"ENHANCED REQUIREMENTS - System Updates (Design Update)"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.1.5/app/Config/Routes.php",
-			"public/updates/arkcrm-patch-v1.1.5/app/Controllers/Portal/ContactController.php",
-			"public/updates/arkcrm-patch-v1.1.5/app/Controllers/Portal/NavigationController.php",
-			"public/updates/arkcrm-patch-v1.1.5/app/Controllers/Portal/OrganizationController.php",
-			"public/updates/arkcrm-patch-v1.1.5/app/Controllers/SampleController.php",
-			"public/updates/arkcrm-patch-v1.1.5/app/Database/Migrations/2022-11-03-174041_CreateContactsTable.php",
-			"public/updates/arkcrm-patch-v1.1.5/app/Models/Portal/Contacts.php",
-			"public/updates/arkcrm-patch-v1.1.5/app/Models/Portal/Organizations.php",
-			"public/updates/arkcrm-patch-v1.1.5/app/Views/portal/rolodex/contact.slice.php",
-			"public/updates/arkcrm-patch-v1.1.5/app/Views/portal/rolodex/organization.slice.php",
-			"public/updates/arkcrm-patch-v1.1.5/app/Views/template/includes/footer.slice.php",
-			"public/updates/arkcrm-patch-v1.1.5/public/assets/js/helpers/common_helper.js",
-			"public/updates/arkcrm-patch-v1.1.5/public/assets/js/portal/rolodex/contacts.js",
-			"public/updates/arkcrm-patch-v1.1.5/public/assets/js/portal/rolodex/organization.js"
+			"public/updates/arkcrm-patch-v1.1.6/app/Models/Portal/EmailTemplates.php",
+			"public/updates/arkcrm-patch-v1.1.6/app/Views/portal/dashboard.slice.php",
+			"public/updates/arkcrm-patch-v1.1.6/app/Views/portal/marketing/email_signature.slice.php",
+			"public/updates/arkcrm-patch-v1.1.6/app/Views/portal/settings.slice.php",
+			"public/updates/arkcrm-patch-v1.1.6/public/assets/js/portal/settings.js"
 		],
 	  	"path_to" : [
-			"app/Config/Routes.php",
-			"app/Controllers/Portal/ContactController.php",
-			"app/Controllers/Portal/NavigationController.php",
-			"app/Controllers/Portal/OrganizationController.php",
-			"app/Controllers/SampleController.php",
-			"app/Database/Migrations/2022-11-03-174041_CreateContactsTable.php",
-			"app/Models/Portal/Contacts.php",
-			"app/Models/Portal/Organizations.php",
-			"app/Views/portal/rolodex/contact.slice.php",
-			"app/Views/portal/rolodex/organization.slice.php",
-			"app/Views/template/includes/footer.slice.php",
-			"public/assets/js/helpers/common_helper.js",
-			"public/assets/js/portal/rolodex/contacts.js",
-			"public/assets/js/portal/rolodex/organization.js"
+			"app/Models/Portal/EmailTemplates.php",
+			"app/Views/portal/dashboard.slice.php",
+			"app/Views/portal/marketing/email_signature.slice.php",
+			"app/Views/portal/settings.slice.php",
+			"public/assets/js/portal/settings.js"
 		],
-		"date" : "2024-08-26"
+		"date" : "2024-09-02"
 	}
 }
