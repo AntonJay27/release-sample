@@ -8,19 +8,19 @@
 			"ENHANCED REQUIREMENTS - Voip Integration to Contact Numbers"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.1.7/app/Config/Routes.php",
-			"public/updates/arkcrm-patch-v1.1.7/app/Controllers/IndexController.php",
-			"public/updates/arkcrm-patch-v1.1.7/app/Controllers/NavigationController.php",
-			"public/updates/arkcrm-patch-v1.1.7/app/Controllers/Portal/MyAccountController.php",
-			"public/updates/arkcrm-patch-v1.1.7/app/Controllers/Portal/NavigationController.php",
-			"public/updates/arkcrm-patch-v1.1.7/app/Views/portal/dashboard.slice.php",
-			"public/updates/arkcrm-patch-v1.1.7/app/Views/portal/rolodex/organization.slice.php",
-			"public/updates/arkcrm-patch-v1.1.7/app/Views/portal/settings.slice.php",
-			"public/updates/arkcrm-patch-v1.1.7/app/Views/template/layout.slice.php",
-			"public/updates/arkcrm-patch-v1.1.7/public/assets/js/portal/dashboard.js",
-			"public/updates/arkcrm-patch-v1.1.7/public/assets/js/portal/global.js",
-			"public/updates/arkcrm-patch-v1.1.7/public/assets/js/portal/rolodex/contacts.js",
-			"public/updates/arkcrm-patch-v1.1.7/public/assets/js/portal/settings.js"
+			"public/updates/arkcrm-patch-v1.1.8/app/Config/Routes.php",
+			"public/updates/arkcrm-patch-v1.1.8/app/Controllers/IndexController.php",
+			"public/updates/arkcrm-patch-v1.1.8/app/Controllers/NavigationController.php",
+			"public/updates/arkcrm-patch-v1.1.8/app/Controllers/Portal/MyAccountController.php",
+			"public/updates/arkcrm-patch-v1.1.8/app/Controllers/Portal/NavigationController.php",
+			"public/updates/arkcrm-patch-v1.1.8/app/Views/portal/dashboard.slice.php",
+			"public/updates/arkcrm-patch-v1.1.8/app/Views/portal/rolodex/organization.slice.php",
+			"public/updates/arkcrm-patch-v1.1.8/app/Views/portal/settings.slice.php",
+			"public/updates/arkcrm-patch-v1.1.8/app/Views/template/layout.slice.php",
+			"public/updates/arkcrm-patch-v1.1.8/public/assets/js/portal/dashboard.js",
+			"public/updates/arkcrm-patch-v1.1.8/public/assets/js/portal/global.js",
+			"public/updates/arkcrm-patch-v1.1.8/public/assets/js/portal/rolodex/contacts.js",
+			"public/updates/arkcrm-patch-v1.1.8/public/assets/js/portal/settings.js"
 		],
 	  	"path_to" : [
 			"app/Config/Routes.php",
