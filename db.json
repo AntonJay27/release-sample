@@ -1,42 +1,42 @@
 {
   "system_update" : {
-		"version" : "v1.1.8",
-		"file" : "arkcrm-patch-v1.1.8.zip",
+		"version" : "v1.1.9",
+		"file" : "arkcrm-patch-v1.1.9.zip",
 		"details" : [
-			"ENHANCED REQUIREMENTS - Weather Widget",
-			"ENHANCED REQUIREMENTS - Auto-logout Configuration",
-			"ENHANCED REQUIREMENTS - Voip Integration to Contact Numbers"
+			"BUG FIXES - Phone Number Handling for Contacts & Organizations",
+			"ENHANCED REQUIREMENTS - Top Navigation enhancement for Contacts & Organizations",
+			"ENHANCED REQUIREMENTS - Enhance Password Protection"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.1.8/app/Config/Routes.php",
-			"public/updates/arkcrm-patch-v1.1.8/app/Controllers/IndexController.php",
-			"public/updates/arkcrm-patch-v1.1.8/app/Controllers/NavigationController.php",
-			"public/updates/arkcrm-patch-v1.1.8/app/Controllers/Portal/MyAccountController.php",
-			"public/updates/arkcrm-patch-v1.1.8/app/Controllers/Portal/NavigationController.php",
-			"public/updates/arkcrm-patch-v1.1.8/app/Views/portal/dashboard.slice.php",
-			"public/updates/arkcrm-patch-v1.1.8/app/Views/portal/rolodex/organization.slice.php",
-			"public/updates/arkcrm-patch-v1.1.8/app/Views/portal/settings.slice.php",
-			"public/updates/arkcrm-patch-v1.1.8/app/Views/template/layout.slice.php",
-			"public/updates/arkcrm-patch-v1.1.8/public/assets/js/portal/dashboard.js",
-			"public/updates/arkcrm-patch-v1.1.8/public/assets/js/portal/global.js",
-			"public/updates/arkcrm-patch-v1.1.8/public/assets/js/portal/rolodex/contacts.js",
-			"public/updates/arkcrm-patch-v1.1.8/public/assets/js/portal/settings.js"
+			"public/updates/arkcrm-patch-v1.1.9/app/Config/Routes.php",
+			"public/updates/arkcrm-patch-v1.1.9/app/Controllers/Portal/ContactController.php",
+			"public/updates/arkcrm-patch-v1.1.9/app/Controllers/Portal/OrganizationController.php",
+			"public/updates/arkcrm-patch-v1.1.9/app/Helpers/common_helper.php",
+			"public/updates/arkcrm-patch-v1.1.9/app/Models/Portal/Contacts.php",
+			"public/updates/arkcrm-patch-v1.1.9/app/Views/portal/dashboard.slice.php",
+			"public/updates/arkcrm-patch-v1.1.9/app/Views/portal/rolodex/contact.slice.php",
+			"public/updates/arkcrm-patch-v1.1.9/app/Views/portal/rolodex/organization.slice.php",
+			"public/updates/arkcrm-patch-v1.1.9/app/Views/portal/settings.slice.php",
+			"public/updates/arkcrm-patch-v1.1.9/app/Views/template/includes/footer.slice.php",
+			"public/updates/arkcrm-patch-v1.1.9/public/assets/js/helpers/common_helper.js",
+			"public/updates/arkcrm-patch-v1.1.9/public/assets/js/portal/rolodex/contacts.js",
+			"public/updates/arkcrm-patch-v1.1.9/public/assets/js/portal/rolodex/organization.js"
 		],
 	  	"path_to" : [
 			"app/Config/Routes.php",
-			"app/Controllers/IndexController.php",
-			"app/Controllers/NavigationController.php",
-			"app/Controllers/Portal/MyAccountController.php",
-			"app/Controllers/Portal/NavigationController.php",
+			"app/Controllers/Portal/ContactController.php",
+			"app/Controllers/Portal/OrganizationController.php",
+			"app/Helpers/common_helper.php",
+			"app/Models/Portal/Contacts.php",
 			"app/Views/portal/dashboard.slice.php",
+			"app/Views/portal/rolodex/contact.slice.php",
 			"app/Views/portal/rolodex/organization.slice.php",
 			"app/Views/portal/settings.slice.php",
-			"app/Views/template/layout.slice.php",
-			"public/assets/js/portal/dashboard.js",
-			"public/assets/js/portal/global.js",
+			"app/Views/template/includes/footer.slice.php",
+			"public/assets/js/helpers/common_helper.js",
 			"public/assets/js/portal/rolodex/contacts.js",
-			"public/assets/js/portal/settings.js"
+			"public/assets/js/portal/rolodex/organization.js"
 		],
-		"date" : "2024-10-22"
+		"date" : "2024-11-25"
 	}
 }
