@@ -1,6 +1,6 @@
 {
   "system_update" : {
-		"version" : "v1.1.10",
+		"version" : "v1.1.9",
 		"file" : "arkcrm-patch-v1.1.9.zip",
 		"details" : [
 			"BUG FIXES - Phone Number Handling for Contacts & Organizations",
