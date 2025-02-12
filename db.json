@@ -8,7 +8,7 @@
 			"ENHANCED REQUIREMENTS - Table Column Resize for Contacts Table",
 			"ENHANCED REQUIREMENTS - Table Column Resize for Organizations Table",
 			"BUG FIXES - Organizations & Contacts Uploading (user logs)",
-			"BUG FIXES - Contact Update (Assigned to Bug Fix)",
+			"BUG FIXES - Contact Update (Assigned to Bug Fix)"
 		],
 	  	"path_from" : [
 			"public/updates/arkcrm-patch-v1.2.0/app/Config/Routes.php",
