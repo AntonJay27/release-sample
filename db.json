@@ -1,7 +1,7 @@
 {
   "system_update" : {
-		"version" : "v1.2.0",
-		"file" : "arkcrm-patch-v1.2.0.zip",
+		"version" : "v1.1.9",
+		"file" : "arkcrm-patch-v1.1.9.zip",
 		"details" : [
 			"ENHANCED REQUIREMENTS - Column Configuration for Contacts Table",
 			"ENHANCED REQUIREMENTS - Column Configuration for Organizations Table",
