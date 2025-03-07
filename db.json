@@ -1,7 +1,7 @@
 {
   "system_update" : {
-		"version" : "v1.2.2",
-		"file" : "arkcrm-patch-v1.2.2.zip",
+		"version" : "v1.2.1",
+		"file" : "arkcrm-patch-v1.2.1.zip",
 		"details" : [
 			"ENHANCED REQUIREMENTS - Add Touch/Updated date column for Contacts Table",
 			"ENHANCED REQUIREMENTS - Add Touch/Updated date column for Organizations Table",
