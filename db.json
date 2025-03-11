@@ -1,10 +1,11 @@
 {
   "system_update" : {
-		"version" : "v1.2.1",
-		"file" : "arkcrm-patch-v1.2.1.zip",
+		"version" : "v1.2.2",
+		"file" : "arkcrm-patch-v1.2.2.zip",
 		"details" : [
 			"ENHANCED REQUIREMENTS - Add Touch/Updated date column for Contacts Table",
 			"ENHANCED REQUIREMENTS - Add Touch/Updated date column for Organizations Table",
+			"ENHANCED REQUIREMENTS - Real Time apperance of Comments for Organizations and Contacts Table",
 			"BUG FIXES - Organizations & Contacts Table columns fixed width and adjustments"
 		],
 	  	"path_from" : [
@@ -35,6 +36,6 @@
 			"public/assets/js/portal/rolodex/contacts.js",
 			"public/assets/js/portal/rolodex/organization.js"
 		],
-		"date" : "2025-03-07"
+		"date" : "2025-03-11"
 	}
 }
