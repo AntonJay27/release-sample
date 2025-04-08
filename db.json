@@ -1,31 +1,30 @@
 {
   "system_update" : {
-		"version" : "v1.2.2",
-		"file" : "arkcrm-patch-v1.2.2.zip",
+		"version" : "v1.2.3",
+		"file" : "arkcrm-patch-v1.2.3.zip",
 		"details" : [
-			"ENHANCED REQUIREMENTS - Add Touch/Updated date column for Contacts Table",
-			"ENHANCED REQUIREMENTS - Add Touch/Updated date column for Organizations Table",
-			"ENHANCED REQUIREMENTS - Real Time apperance of Comments for Organizations and Contacts Table",
-			"BUG FIXES - Organizations & Contacts Table columns fixed width and adjustments"
+			"BUG FIXES - (Organizations module) Add Contacts Shortcut",
+			"BUG FIXES - (Organizations module) Add Contacts Full Form"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.2.2/app/Config/Routes.php",
-			"public/updates/arkcrm-patch-v1.2.2/app/Controllers/IndexController.php",
-			"public/updates/arkcrm-patch-v1.2.2/app/Controllers/Portal/ContactController.php",
-			"public/updates/arkcrm-patch-v1.2.2/app/Controllers/Portal/OrganizationController.php",
-			"public/updates/arkcrm-patch-v1.2.2/app/Database/Migrations/2025-02-11-142155_CreateContactColumnsTable.php",
-			"public/updates/arkcrm-patch-v1.2.2/app/Database/Migrations/2025-02-11-142212_CreateOrganizationColumnsTable.php",
-			"public/updates/arkcrm-patch-v1.2.2/app/Models/Portal/Contacts.php",
-			"public/updates/arkcrm-patch-v1.2.2/app/Models/Portal/Organizations.php",
-			"public/updates/arkcrm-patch-v1.2.2/app/Views/portal/rolodex/contact.slice.php",
-			"public/updates/arkcrm-patch-v1.2.2/app/Views/portal/rolodex/organization.slice.php",
-			"public/updates/arkcrm-patch-v1.2.2/public/assets/js/portal/rolodex/contacts.js",
-			"public/updates/arkcrm-patch-v1.2.2/public/assets/js/portal/rolodex/organization.js"
+			"public/updates/arkcrm-patch-v1.2.3/app/Controllers/IndexController.php",
+			"public/updates/arkcrm-patch-v1.2.3/app/Controllers/Portal/ContactController.php",
+			"public/updates/arkcrm-patch-v1.2.3/app/Controllers/Portal/NavigationController.php",
+			"public/updates/arkcrm-patch-v1.2.3/app/Controllers/Portal/OrganizationController.php",
+			"public/updates/arkcrm-patch-v1.2.3/app/Database/Migrations/2025-02-11-142155_CreateContactColumnsTable.php",
+			"public/updates/arkcrm-patch-v1.2.3/app/Database/Migrations/2025-02-11-142212_CreateOrganizationColumnsTable.php",
+			"public/updates/arkcrm-patch-v1.2.3/app/Models/Portal/Contacts.php",
+			"public/updates/arkcrm-patch-v1.2.3/app/Models/Portal/Organizations.php",
+			"public/updates/arkcrm-patch-v1.2.3/app/Views/portal/rolodex/contact.slice.php",
+			"public/updates/arkcrm-patch-v1.2.3/app/Views/portal/rolodex/organization.slice.php",
+			"public/updates/arkcrm-patch-v1.2.3/public/assets/js/portal/rolodex/contacts.js",
+			"public/updates/arkcrm-patch-v1.2.3/public/assets/js/portal/rolodex/organization.js",
+			"public/updates/arkcrm-patch-v1.2.3/public/assets/js/portal/marketing/social_media_posts.js"
 		],
 	  	"path_to" : [
-			"app/Config/Routes.php",
 			"app/Controllers/IndexController.php",
 			"app/Controllers/Portal/ContactController.php",
+			"app/Controllers/Portal/NavigationController.php",
 			"app/Controllers/Portal/OrganizationController.php",
 			"app/Database/Migrations/2025-02-11-142155_CreateContactColumnsTable.php",
 			"app/Database/Migrations/2025-02-11-142212_CreateOrganizationColumnsTable.php",
@@ -34,8 +33,9 @@
 			"app/Views/portal/rolodex/contact.slice.php",
 			"app/Views/portal/rolodex/organization.slice.php",
 			"public/assets/js/portal/rolodex/contacts.js",
-			"public/assets/js/portal/rolodex/organization.js"
+			"public/assets/js/portal/rolodex/organization.js",
+			"public/assets/js/portal/marketing/social_media_posts.js"
 		],
-		"date" : "2025-03-11"
+		"date" : "2025-04-08"
 	}
 }
