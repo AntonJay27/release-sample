@@ -11,6 +11,7 @@
 			"public/updates/arkcrm-patch-v1.2.4/app/Controllers/IndexController.php",
 			"public/updates/arkcrm-patch-v1.2.4/app/Controllers/NavigationController.php",
 			"public/updates/arkcrm-patch-v1.2.4/app/Controllers/Portal/NavigationController.php",
+			"public/updates/arkcrm-patch-v1.2.4/app/Controllers/Portal/SocialMediaPostingController.php",
 			"public/updates/arkcrm-patch-v1.2.4/app/Views/portal/marketing/social_media_post.slice.php",
 			"public/updates/arkcrm-patch-v1.2.4/public/assets/js/portal/marketing/social_media_posts.js"
 		],
@@ -19,6 +20,7 @@
 			"app/Controllers/IndexController.php",
 			"app/Controllers/NavigationController.php",
 			"app/Controllers/Portal/NavigationController.php",
+			"app/Controllers/Portal/SocialMediaPostingController.php",
 			"app/Views/portal/marketing/social_media_post.slice.php",
 			"public/assets/js/portal/marketing/social_media_posts.js"
 		],
