@@ -34,6 +34,7 @@
 			"public/updates/arkcrm-patch-v1.2.5/app/Helpers/common_helper.php",
 			"public/updates/arkcrm-patch-v1.2.5/app/Models/Portal/Contacts.php",
 			"public/updates/arkcrm-patch-v1.2.5/app/Models/Portal/Organizations.php",
+			"public/updates/arkcrm-patch-v1.2.5/app/Models/Portal/SocialMedias.php",
 			"public/updates/arkcrm-patch-v1.2.5/app/Views/portal/marketing/social_media_post.slice.php",
 			"public/updates/arkcrm-patch-v1.2.5/public/assets/js/portal/marketing/social_media_posts.js"
 		],
@@ -65,6 +66,7 @@
 			"app/Helpers/common_helper.php",
 			"app/Models/Portal/Contacts.php",
 			"app/Models/Portal/Organizations.php",
+			"app/Models/Portal/SocialMedias.php",
 			"app/Views/portal/marketing/social_media_post.slice.php",
 			"public/assets/js/portal/marketing/social_media_posts.js"
 		],
