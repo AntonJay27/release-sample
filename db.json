@@ -1,12 +1,12 @@
 {
   "system_update" : {
-		"version" : "v1.2.6",
-		"file" : "arkcrm-patch-v1.2.6.zip",
+		"version" : "v1.2.7",
+		"file" : "arkcrm-patch-v1.2.7.zip",
 		"details" : [
 			"BUG FIXES - API Connection cant find callback URL"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.2.6/app/Controllers/NavigationController.php"
+			"public/updates/arkcrm-patch-v1.2.7/app/Controllers/NavigationController.php"
 		],
 	  	"path_to" : [
 			"app/Controllers/NavigationController.php"
