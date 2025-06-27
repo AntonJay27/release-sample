@@ -1,16 +1,66 @@
 {
   "system_update" : {
-		"version" : "v1.2.7",
-		"file" : "arkcrm-patch-v1.2.7.zip",
+		"version" : "v1.2.8",
+		"file" : "arkcrm-patch-v1.2.8.zip",
 		"details" : [
-			"BUG FIXES - API Connection cant find callback URL"
+			"BUG FIXES - Minor bug fix on installation module, some codes are deprecated on PHP version 8.0+",
+			"NEW FEATURE - (Organization Module) export all organizations to excel file",
+			"NEW FEATURE - (Organization Module) export selected organizations to excel file"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.2.7/app/Controllers/NavigationController.php"
+			"public/updates/arkcrm-patch-v1.2.8/app/Config/Routes.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Controllers/IndexController.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Controllers/Portal/OrganizationController.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Helpers/phpspreadsheet_helper.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Models/Portal/Organizations.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Views/portal/rolodex/organization.slice.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Views/template/includes/header.slice.php",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/js/portal/rolodex/organization.js",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/col-resize/jquery.dataTables.colResize.css",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/col-resize/jquery.dataTables.colResize.js",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-brands-400.eot",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-brands-400.svg",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-brands-400.ttf",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-brands-400.woff",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-brands-400.woff2",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-regular-400.eot",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-regular-400.svg",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-regular-400.ttf",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-regular-400.woff",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-regular-400.woff2",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-solid-900.eot",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-solid-900.svg",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-solid-900.ttf",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-solid-900.woff",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/lib/webfonts/fa-solid-900.woff2"
 		],
 	  	"path_to" : [
-			"app/Controllers/NavigationController.php"
+			"app/Config/Routes.php",
+			"app/Controllers/IndexController.php",
+			"app/Controllers/Portal/OrganizationController.php",
+			"app/Helpers/phpspreadsheet_helper.php",
+			"app/Models/Portal/Organizations.php",
+			"app/Views/portal/rolodex/organization.slice.php",
+			"app/Views/template/includes/header.slice.php",
+			"public/assets/js/portal/rolodex/organization.js",
+			"public/assets/lib/col-resize/jquery.dataTables.colResize.css",
+			"public/assets/lib/col-resize/jquery.dataTables.colResize.js",
+			"public/assets/lib/webfonts/fa-brands-400.eot",
+			"public/assets/lib/webfonts/fa-brands-400.svg",
+			"public/assets/lib/webfonts/fa-brands-400.ttf",
+			"public/assets/lib/webfonts/fa-brands-400.woff",
+			"public/assets/lib/webfonts/fa-brands-400.woff2",
+			"public/assets/lib/webfonts/fa-regular-400.eot",
+			"public/assets/lib/webfonts/fa-regular-400.svg",
+			"public/assets/lib/webfonts/fa-regular-400.ttf",
+			"public/assets/lib/webfonts/fa-regular-400.woff",
+			"public/assets/lib/webfonts/fa-regular-400.woff2",
+			"public/assets/lib/webfonts/fa-solid-900.eot",
+			"public/assets/lib/webfonts/fa-solid-900.svg",
+			"public/assets/lib/webfonts/fa-solid-900.ttf",
+			"public/assets/lib/webfonts/fa-solid-900.woff",
+			"public/assets/lib/webfonts/fa-solid-900.woff2"
 		],
-		"date" : "2025-06-16"
+		"date" : "2025-06-27"
 	}
 }
