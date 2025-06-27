@@ -1,7 +1,7 @@
 {
   "system_update" : {
-		"version" : "v1.2.7",
-		"file" : "arkcrm-patch-v1.2.7.zip",
+		"version" : "v1.2.8",
+		"file" : "arkcrm-patch-v1.2.8.zip",
 		"details" : [
 			"BUG FIXES - Minor bug fix on installation module, some codes are deprecated on PHP version 8.0+",
 			"NEW FEATURE - (Organization Module) export all organizations to excel file",
