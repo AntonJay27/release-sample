@@ -1,15 +1,31 @@
 {
   "system_update" : {
-		"version" : "v1.2.9",
-		"file" : "arkcrm-patch-v1.2.9.zip",
+		"version" : "v1.2.8",
+		"file" : "arkcrm-patch-v1.2.8.zip",
 		"details" : [
-			"BUG FIXES - Minor bug fix on installation module, social media table is missing!"
+			"BUG FIXES - Minor bug fix on installation module, some codes are deprecated on PHP version 8.0+",
+			"NEW FEATURE - (Organization Module) export all organizations to excel file",
+			"NEW FEATURE - (Organization Module) export selected organizations to excel file"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.2.9/app/Controllers/IndexController.php"
+			"public/updates/arkcrm-patch-v1.2.8/app/Config/Routes.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Controllers/IndexController.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Controllers/Portal/OrganizationController.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Helpers/phpspreadsheet_helper.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Models/Portal/Organizations.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Views/portal/rolodex/organization.slice.php",
+			"public/updates/arkcrm-patch-v1.2.8/app/Views/template/includes/header.slice.php",
+			"public/updates/arkcrm-patch-v1.2.8/public/assets/js/portal/rolodex/organization.js"
 		],
 	  	"path_to" : [
-			"app/Controllers/IndexController.php"
+			"app/Config/Routes.php",
+			"app/Controllers/IndexController.php",
+			"app/Controllers/Portal/OrganizationController.php",
+			"app/Helpers/phpspreadsheet_helper.php",
+			"app/Models/Portal/Organizations.php",
+			"app/Views/portal/rolodex/organization.slice.php",
+			"app/Views/template/includes/header.slice.php",
+			"public/assets/js/portal/rolodex/organization.js"
 		],
 		"date" : "2025-06-27"
 	}
