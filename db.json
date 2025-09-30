@@ -1,16 +1,20 @@
 {
   "system_update" : {
-		"version" : "v1.2.9",
-		"file" : "arkcrm-patch-v1.2.9.zip",
+		"version" : "v1.3.0",
+		"file" : "arkcrm-patch-v1.3.0.zip",
 		"details" : [
-			"BUG FIXES - Minor bug fix on installation module, social media table is missing!"
+			"BUG FIXES - Organition import module fix merging data!"
 		],
 	  	"path_from" : [
-			"public/updates/arkcrm-patch-v1.2.8/app/Controllers/IndexController.php"
+			"public/updates/arkcrm-patch-v1.3.0/app/Controllers/Portal/OrganizationController.php",
+			"public/updates/arkcrm-patch-v1.3.0/app/Views/portal/rolodex/contact.slice.php",
+			"public/updates/arkcrm-patch-v1.3.0/app/Views/portal/rolodex/organization.slice.php"
 		],
 	  	"path_to" : [
-			"app/Controllers/IndexController.php"
+			"app/Controllers/Portal/OrganizationController.php",
+			"app/Views/portal/rolodex/contact.slice.php",
+			"app/Views/portal/rolodex/organization.slice.php"
 		],
-		"date" : "2025-06-29"
+		"date" : "2025-09-30"
 	}
 }
